@@ -21,3 +21,25 @@
  * concat
  */
 
+function isTrue (userInput) {
+    return userInput === true;
+}
+console.log(isTrue("two"));
+console.log(isTrue("true"));
+console.log(isTrue(true));
+
+function isFalse (userAns) {
+    return (userAns === false);
+}
+
+console.log(isFalse(false));
+console.log(isFalse("three"));
+console.log(isFalse("false"));
+
+function not (opposite) {
+    return (opposite === false);
+}
+
+console.log(not(true));
+console.log(not(false));
+
